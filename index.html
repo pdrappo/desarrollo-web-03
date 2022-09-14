@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer web Git</title>
+    <script>
+        function InicializarSitio () {
+            var div = document.createElement("div");
+            div.innerHTML = "Mi primer Web GIT";
+            var body = document.getElementsByTagName("body")[0];
+            console.log(body);
+            body.appendChild(div)
+        }
+    </script>
 </head>
-<body>
+<body onload="InicializarSitio()">
     
 </body>
 </html>
